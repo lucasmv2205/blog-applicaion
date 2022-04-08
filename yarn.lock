@@ -1678,7 +1678,7 @@
     escape-html "^1.0.3"
     imgix-url-builder "^0.0.3"
 
-"@prismicio/react@^2.2.2":
+"@prismicio/react@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@prismicio/react/-/react-2.2.0.tgz#908f78086da89a5c5480ad2f5b261d9695d81871"
   integrity sha512-HTBhhtS5MvhmSmkV/GRUEFdFZ/0PhKNIFXMPOuNTWcnWi9Nlw3Co+jurIYUdI+mGt/nfyr4Wnj5XwO+94sBPRA==
