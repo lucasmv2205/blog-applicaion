@@ -1,3 +1,4 @@
+/* eslint-disable dot-notation */
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-return-assign */
 /* eslint-disable react/no-danger */
@@ -135,13 +136,13 @@ export const getStaticProps: GetStaticProps = async context => {
     uid: response.uid,
     first_publication_date: response.first_publication_date,
     data: {
-      title: response.data.title,
-      subtitle: response.data.subtitle,
-      author: response.data.author,
+      title: response.data['title'],
+      subtitle: response.data['subtitle'],
+      author: response.data['author'],
       banner: {
-        url: response.data.banner?.url,
+        url: response.data['banner']?.url,
       },
-      content: response.data.content?.map(content => {
+      content: response.data['content']?.map(content => {
         return {
           heading: content.heading,
           body: [...content.body],

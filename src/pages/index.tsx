@@ -1,3 +1,4 @@
+/* eslint-disable dot-notation */
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-return-assign */
 /* eslint-disable react/no-danger */
@@ -183,10 +184,10 @@ export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
       uid: post.uid,
       first_publication_date: post.first_publication_date,
       data: {
-        title: post.data.title,
-        subtitle: post.data.subtitle,
-        author: post.data.author,
-        content: post.data.content?.map(content => {
+        title: post.data['title'],
+        subtitle: post.data['subtitle'],
+        author: post.data['author'],
+        content: post.data['content']?.map(content => {
           return {
             heading: content.heading,
             body: [...content.body],
