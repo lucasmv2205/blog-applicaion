@@ -3,7 +3,7 @@
 
 This is a blog app, built with nextjs, sass and prismic cms.
 
-To see the project[visit](blog-app-black.vercel.app)
+To see the project [visit](blog-app-black.vercel.app)
 
 ## Features
 - Next.js api routes
