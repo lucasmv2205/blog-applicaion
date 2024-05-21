@@ -9,7 +9,7 @@ To see the project [visit](https://blog-app-black.vercel.app/)
 - Next.js api routes
 - Server side rendereing and Static site generator
 - serverless functions to list posts and retrieve a post
-- Prismic cms API consumption
+- Prismic cms API integration
 - menu navigation
 - active link
 - static posts list (SSG)
